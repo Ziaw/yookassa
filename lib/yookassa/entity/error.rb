@@ -14,6 +14,10 @@ module Yookassa
       def error?
         type == "error"
       end
+
+      def merge(params)
+        self
+      end
     end
   end
 end
